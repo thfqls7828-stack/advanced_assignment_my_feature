@@ -1,1 +1,1 @@
-[{"name":"홍길동","score":90,"isMan":true},{"name":"김유리","score":80,"isMan":false},{"name":"배철","score":55,"isMan":true}]
+[{"name":"홍길동","score":90,"isMan":true},{"name":"김유리","score":80,"isMan":false},{"name":"배철","score":55,"isMan":true},{"name":"김영광","score":99,"isMan":true},{"name":"김김","score":5,"isMan":false},{"name":"김룰","score":94,"isMan":false}]

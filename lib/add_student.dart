@@ -41,7 +41,7 @@ Future<void> addStudent(String filePath) async {
     jsonList.add(studentMap);
 
     result = jsonEncode(jsonList);
-    file.writeAsString(result);
+    await file.writeAsString(result);
 
     print("학생 정보가 성공적으로 업로드 되었습니다.");
   } catch (e) {
