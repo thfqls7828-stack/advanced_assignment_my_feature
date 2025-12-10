@@ -1,5 +1,6 @@
 import 'dart:io';
 
+// 메뉴 선택 기능
 int selectMenu() {
   final int num;
 

@@ -17,8 +17,6 @@ Future<List<StudentInfo>> loadStudentData(String filePath) async {
     for (final json in jsonList) {
       studentList.add(StudentInfo.fromJson(json));
     }
-
-    print("학생 정보를 불러왔습니다.");
   } catch (e) {
     print("학생 정보를 불러올 수 없습니다 : ${e.toString()}");
   }

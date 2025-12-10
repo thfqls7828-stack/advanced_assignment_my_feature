@@ -3,6 +3,7 @@ import 'dart:io';
 
 import 'package:advanced_assignment_my_feature/student_info.dart';
 
+// 학생 추가 함수
 Future<void> addStudent(String filePath) async {
   final String name;
   final int score;
@@ -31,9 +32,11 @@ Future<void> addStudent(String filePath) async {
   }
   isMan = (gender == "남자") ? true : false;
 
+  // 입력받은 정보들을 바탕으로 Map 생성
   student = StudentInfo(name: name, score: score, isMan: isMan);
   final Map<String, dynamic> studentMap = student.toJson();
 
+  // 기존 파일에 추가 정보 덮어쓰기
   try {
     final file = File(filePath);
     jsonString = await file.readAsString();
