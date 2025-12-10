@@ -3,6 +3,7 @@ import 'dart:io';
 
 import 'package:advanced_assignment_my_feature/load_student_data.dart';
 
+// 학생 정보 출력하는 함수
 Future<void> printStudentInfo(String filePath) async {
   final studentList = await loadStudentData(filePath);
 

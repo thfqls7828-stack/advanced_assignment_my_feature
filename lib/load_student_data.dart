@@ -3,6 +3,7 @@ import 'dart:convert';
 
 import 'package:advanced_assignment_my_feature/student_info.dart';
 
+// 학생 데이터 불러오는 함수
 Future<List<StudentInfo>> loadStudentData(String filePath) async {
   List<StudentInfo> studentList = [];
 
