@@ -12,4 +12,8 @@ class StudentInfo {
       isMan: json["isMan"],
     );
   }
+
+  Map<String, dynamic> toJson() {
+    return {"name": name, "score": score, "isMan": isMan};
+  }
 }
