@@ -1,0 +1,12 @@
+[
+    { 
+    "name" : "홍길동",
+    "score" : 90,
+    "isMan" : true
+    },
+    {
+    "name" : "김유리",
+    "score" : 80,
+    "isMan" : false
+    }
+]
